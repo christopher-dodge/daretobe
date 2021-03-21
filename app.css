@@ -351,6 +351,11 @@ transform: rotate(45deg);
     grid-row: span 2;
 }
 
+/* .gallery-wrapper .grid-wrapper a:nth-child(4) {
+    grid-column: span 1;
+    grid-row: span 1;
+} */
+
 .gallery-wrapper .grid-wrapper a:hover {
     opacity: .8;
 }
