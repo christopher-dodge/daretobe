@@ -1,4 +1,2 @@
 # portfolio
-Portfolio Site showcasing coding projects, short bio and contact
-
-## [deployed site here](http://dodgedesign.io/)
+Portfolio showcasing creative projects with a short bio
