@@ -1,0 +1,460 @@
+/* DareToBe.xyz - Palette: 
+ff4897 - Bumble Gum Pink
+*/
+
+body, html {
+    margin: 0;
+    color: grey;
+    background: #000;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+}
+
+body {
+    min-width: 320px;
+    line-height: 1.65;
+}
+
+h6 {
+    font-size: smaller;
+    letter-spacing: 0.2em !important;
+    line-height: 1.65;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+button:focus {
+    outline: 0;
+}
+
+a {
+    color: grey;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.row {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    height: 100vh;
+    min-height: 60vw;
+    /* text-align: center; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card {
+    min-height: 550px;
+    width: 18rem;
+}
+
+.btn {
+    color: grey;
+    background-color: white;
+    border: 3px solid grey;
+    border-radius: 30px;
+    transition: all .4s ease;
+}
+
+.btn:hover {
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 576px){
+    .section {
+        height: 100vh !important;
+    }
+
+    h1 {
+        font-size: 1.7em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    p, li {
+        font-size: .9em;
+    }
+
+    #skills div a {
+        margin-top: 50px;
+    }
+
+    #skills h2 {
+        font-size: 1em;
+    }
+
+    #skills li {
+        font-size: .7em;
+    }
+}
+
+    /* ------------- UTILITIES ------------- */
+
+.off-white {
+    background: #000;
+}
+
+.gut-100 {
+    margin-bottom: 100px;
+}
+.gut-50 {
+    margin-bottom: 1.5em;
+}
+
+    /* ------------- ANIMATIONS ------------- */
+
+.animate-fadeup {
+    animation: fadein 2s, translate-up 1s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes translate-up {
+    0% { transform: translateY(-40px); }
+    100% { transform: translateY(0); }
+}
+
+    /* ------------- WELCOME - HERO BANNER - TOP SECTION ------------- */
+
+.quick-link {
+    width: 10em;
+    margin-bottom: 1em;
+}
+
+.arrow {
+    border: solid grey;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+.down {
+transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+}
+
+#hello {
+    color: black !important;
+}
+
+    /*---- ABOUT ---*/
+#about {
+    margin-top: 100px;
+}
+
+#about h6 {
+    text-transform: uppercase;
+}
+
+#links a {
+    margin: 6px 14px 0 0 !important;
+}
+
+#footer {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+/*---- RESPONSIVENESS ---*/
+
+@media screen and (max-width: 400px){
+    a.navbar-brand {
+        font-size: 0.3em !important;
+    }
+
+    button.navbar-toggler {
+        font-size: 0.2em !important;
+    }
+}
+
+@media screen and (max-width: 576px){
+    #contact {
+        min-height: 100vh;
+    }
+}
+
+@media screen and (max-height: 768px){
+    #welcome, #about, #skills {
+        min-height: 900px !important;
+    }
+    
+    #skills {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-height: 700px){
+    #skills {
+        min-height: 1000px;
+    }
+}
+
+@media screen and (max-height: 616px){
+    #hello-line {
+        font-size: 0.9em;
+    }
+
+    #welcome h2 {
+        font-size: 1.9em;
+    }
+}
+
+@media screen and (max-height: 500px){
+    h1 {
+        font-size: 1.0em;
+    }
+
+    h2 {
+        font-size: 0.9em !important;
+    }
+
+    h3 {
+        font-size: 0.8em !important;
+    }
+
+    p {
+        font-size: 0.7em !important;
+    }
+
+    li {
+        font-size: 0.6em !important;
+    }
+
+    header {
+        padding-bottom: 1.0em;
+    }
+
+    .quick-link {
+        display: none;
+    }
+
+    .section {
+        min-height: 600px;
+    }
+
+    #welcome {
+        /* min-height: auto; */
+        max-height: 250px !important;
+    }
+
+    #about {
+        min-height: 550px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    #about h2 {
+        font-size: 1.5em;
+    }
+
+    #about p {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 400px){
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.0em !important;
+    }
+
+    p, li {
+        font-size: 0.7em !important;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #mainNavbar .btn {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px){
+    #contact-nav-link {
+        display: none;
+    }
+}
+
+     /*------------- PORTFOLIO ------------- */
+* {
+    box-sizing: border-box;
+}
+
+.grid-wrapper {
+    position: relative;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: minmax(1fr, auto);
+    grid-gap: 1rem;
+    margin-top: 1rem !important;
+}
+
+.gallery-wrapper ul li {
+    margin: 1rem 1rem 0 0;
+}
+
+.gallery-wrapper .grid-wrapper a:nth-child(1) {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.gallery-wrapper .grid-wrapper a:nth-child(5) {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.gallery-wrapper .grid-wrapper a:nth-child(7) {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.gallery-wrapper .grid-wrapper a:nth-child(11) {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.gallery-wrapper .grid-wrapper a:hover {
+    opacity: .8;
+}
+
+
+
+.gallery-wrapper ul {
+    margin: 0 1rem;
+}
+
+.gallery-wrapper img {
+    position: relative;
+    display: block;
+    /* max-width: 400px; */
+    width: 100%;
+}
+
+.image-wrapper {
+    width: 10rem;
+    /* height: 5rem; */
+}
+
+    /* ------------- LINKS-Section ------------- */
+
+#links-section {
+    height: 25vh;
+    min-height: 200px;
+    background: #333;
+    color: #666;
+    font-size: .9em;
+    border-bottom: #000 solid 1px;
+    border-top: #000 solid 1px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#links-section i {
+    font-size: 2.5em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#links-section a {
+    color: #3282b8;
+}
+
+#links-section a:hover {
+    color: #bbe1fa;
+}
+
+.form-row {
+    margin-right: 0;
+}
+
+    /* ------------- NAV ------------- */
+
+#mainNavbar {
+    font-size: 2.5em;
+    font-weight: 500;
+    opacity: .9;
+    background-color: #bbe1fa;
+    width: 100vw;
+}
+
+#xyz {
+    /* color: #DF3F84; */
+}
+
+.navbar-dark .navbar-brand {
+    color: grey !important;
+}
+
+.navbar-brand {
+    font-size: 1rem !important;
+}
+
+#headingGroup span {
+    color: #bbe1fa;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+#mainNavbar .btn {
+    color: #0f4c75;
+    background-color: rgb(212, 206, 206);
+    border: 3px solid #0f4c75;
+    border-radius: 30px;
+}
+
+.navbar.scrolled {
+    background: rgba(187, 225, 250, 0.8);
+    transition: background 500ms;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: small;
+    text-transform: uppercase;
+    letter-spacing: 0.2em !important;
+}
+
+.navbar-dark .navbar-toggler {
+    border: none;
+}
+
+.navbar-brand {
+    margin-left: 1rem !important;
+}
+
+.dropdown-menu-right {
+    right: 0 !important;
+    left: auto !important;
+  }
+
+    /* ------------- END ------------- */
