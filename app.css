@@ -122,6 +122,14 @@ a:hover {
     margin-bottom: 1.5em;
 }
 
+.tm-8 {
+    margin-top: 15% !important;
+}
+
+.gallery-title {
+    margin-left: 1rem;
+}
+
     /* ------------- ANIMATIONS ------------- */
 
 .animate-fadeup {
@@ -305,6 +313,9 @@ transform: rotate(45deg);
 @media screen and (min-width: 1607px) {
     .gallery-wrapper {
         margin: 0 20% !important;
+    }
+    .tm-8 {
+        margin-top: 10% !important;
     }
 }
 
