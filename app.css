@@ -482,10 +482,6 @@ transform: rotate(45deg);
     width: 100vw;
 }
 
-#xyz {
-    /* color: #DF3F84; */
-}
-
 .navbar-dark .navbar-brand {
     color: grey !important;
 }
@@ -519,6 +515,7 @@ transform: rotate(45deg);
     font-size: small;
     text-transform: uppercase;
     letter-spacing: 0.2em !important;
+    text-align: center;
 }
 
 .navbar-dark .navbar-toggler {
@@ -533,6 +530,12 @@ transform: rotate(45deg);
 .dropdown-menu-right {
     right: 0 !important;
     left: auto !important;
+  }
+
+  .dropdown-item {
+    text-align: center !important;
+    /* font-family: "Nunito Sans", sans-serif;
+    font-weight: 400; */
   }
 
     /* ------------- END ------------- */
