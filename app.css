@@ -347,6 +347,11 @@ transform: rotate(45deg);
     grid-row: span 2;
 }
 
+.nav-gallery .grid-wrapper a:nth-child(3) {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
 .wood-gallery .grid-wrapper img:nth-child(1) {
     grid-column: span 1;
     grid-row: span 2;
@@ -372,10 +377,6 @@ transform: rotate(45deg);
     grid-row: span 2;
 }
 
-.gallery-wrapper .grid-wrapper a:hover {
-    opacity: .8;
-}
-
 .leather-gallery .grid-wrapper img:nth-child(1) {
     grid-column: span 1;
     grid-row: span 2;
@@ -384,6 +385,10 @@ transform: rotate(45deg);
 .leather-gallery .grid-wrapper img:nth-last-child(3) {
     grid-column: span 1;
     grid-row: span 2;
+}
+
+.gallery-wrapper .grid-wrapper a:hover {
+    opacity: .8;
 }
 
 .gallery-wrapper ul {
