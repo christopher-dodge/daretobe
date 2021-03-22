@@ -376,7 +376,15 @@ transform: rotate(45deg);
     opacity: .8;
 }
 
+.leather-gallery .grid-wrapper img:nth-child(1) {
+    grid-column: span 1;
+    grid-row: span 2;
+}
 
+.leather-gallery .grid-wrapper img:nth-last-child(3) {
+    grid-column: span 1;
+    grid-row: span 2;
+}
 
 .gallery-wrapper ul {
     margin: 0 1rem;
