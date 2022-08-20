@@ -1,4 +1,4 @@
 # portfolio
-Portfolio showcasing creative projects with a short bio
+My portfolio, which showcases my creative endeavors in web development, woodworking, leather crafting and film/video.
 
 ## [deployed site here](https://daretobe.xyz/)
