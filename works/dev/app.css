@@ -366,7 +366,9 @@ transform: rotate(45deg);
 }
 
 #contact-form {
-    margin-bottom: 50px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 
     /* ------------- LINKS-Section ------------- */
