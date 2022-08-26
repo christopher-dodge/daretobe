@@ -1,8 +1,8 @@
-/* dodgedesign.io - Palette: 
-1b262c - Deep Dark Blue 
-0f4c75 - Dark Blue
-3282b8 - Blue
-bbe1fa - Light Blue
+/*  Color Palette: 
+    Deep Dark Blue - 1b262c
+    Dark Blue - 0f4c75
+    Blue - 3282b8
+    Light Blue - bbe1fa
 */
 
 body, html {
@@ -186,6 +186,12 @@ transform: rotate(45deg);
     color: black !important;
 }
 
+#summary_text {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
 /*---- RESPONSIVENESS ---*/
 
 @media screen and (max-width: 400px){
@@ -201,10 +207,6 @@ transform: rotate(45deg);
 @media screen and (max-width: 576px){
     #contact {
         min-height: 100vh;
-    }
-
-    #contact header h1 {
-        /* font-size: .5rem !important; */
     }
 }
 
@@ -257,10 +259,6 @@ transform: rotate(45deg);
 
     header {
         padding-bottom: 1.0em;
-    }
-
-    .quick-link {
-        display: none;
     }
 
     .section {
@@ -338,7 +336,7 @@ transform: rotate(45deg);
 
      /*------------- ABOUT ------------- */
 
-
+/* Nothing here yet */
 
     /* ------------- SKILLS ------------- */
 
@@ -360,7 +358,9 @@ transform: rotate(45deg);
 }
 
 #contact-form {
-    margin-bottom: 50px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 
     /* ------------- LINKS-Section ------------- */
@@ -385,6 +385,7 @@ transform: rotate(45deg);
 
 #links-section a {
     color: #3282b8;
+    padding: 20px;
 }
 
 #links-section a:hover {
@@ -393,6 +394,10 @@ transform: rotate(45deg);
 
 .form-row {
     margin-right: 0;
+}
+
+#social_links_div {
+    max-width: 25%;
 }
 
     /* ------------- NAV ------------- */
