@@ -265,10 +265,6 @@ transform: rotate(45deg);
         padding-bottom: 1.0em;
     }
 
-    .quick-link {
-        display: none;
-    }
-
     .section {
         min-height: 600px;
     }
