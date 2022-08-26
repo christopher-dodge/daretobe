@@ -1,8 +1,8 @@
-/* dodgedesign.io - Palette: 
-1b262c - Deep Dark Blue 
-0f4c75 - Dark Blue
-3282b8 - Blue
-bbe1fa - Light Blue
+/*  Color Palette: 
+    Deep Dark Blue - 1b262c
+    Dark Blue - 0f4c75
+    Blue - 3282b8
+    Light Blue - bbe1fa
 */
 
 body, html {
@@ -208,10 +208,6 @@ transform: rotate(45deg);
     #contact {
         min-height: 100vh;
     }
-
-    #contact header h1 {
-        /* font-size: .5rem !important; */
-    }
 }
 
 @media screen and (max-height: 768px){
@@ -340,7 +336,7 @@ transform: rotate(45deg);
 
      /*------------- ABOUT ------------- */
 
-
+/* Nothing here yet */
 
     /* ------------- SKILLS ------------- */
 
