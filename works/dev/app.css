@@ -385,6 +385,7 @@ transform: rotate(45deg);
 
 #links-section a {
     color: #3282b8;
+    padding: 20px;
 }
 
 #links-section a:hover {
@@ -393,6 +394,10 @@ transform: rotate(45deg);
 
 .form-row {
     margin-right: 0;
+}
+
+#social_links_div {
+    max-width: 25%;
 }
 
     /* ------------- NAV ------------- */
