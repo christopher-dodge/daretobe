@@ -186,6 +186,12 @@ transform: rotate(45deg);
     color: black !important;
 }
 
+#summary_text {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
 /*---- RESPONSIVENESS ---*/
 
 @media screen and (max-width: 400px){
