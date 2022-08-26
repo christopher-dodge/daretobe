@@ -175,11 +175,18 @@ a.navbar-brand {
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
-  }
+}
 
 .down {
-transform: rotate(45deg);
--webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    position: relative;
+    top: 50%; left: 47%;
 }
 
 #hello {
@@ -373,19 +380,18 @@ transform: rotate(45deg);
     font-size: .9em;
     border-bottom: #000 solid 1px;
     border-top: #000 solid 1px;
-    padding-top: 50px;
+    padding-top: 25px;
     padding-bottom: 50px;
 }
 
 #links-section i {
     font-size: 2.5em;
-    margin-top: 25px;
     margin-bottom: 25px;
 }
 
 #links-section a {
     color: #3282b8;
-    padding: 20px;
+    padding: 0;
 }
 
 #links-section a:hover {
@@ -398,6 +404,10 @@ transform: rotate(45deg);
 
 #social_links_div {
     max-width: 25%;
+}
+
+#arrow_to_top {
+    margin: 0 0 25px;
 }
 
     /* ------------- NAV ------------- */
